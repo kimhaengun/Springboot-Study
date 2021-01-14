@@ -1,0 +1,5 @@
+package com.example.start.web;
+
+public class IndexController {
+
+}

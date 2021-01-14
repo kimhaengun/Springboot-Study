@@ -1,0 +1,11 @@
+server:
+  port:
+  servlet:
+    context-path: /start
+    
+    
+spring:
+  mvc:
+    view:
+      prefix: /views/  
+      suffix: .jsp

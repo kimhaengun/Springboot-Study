@@ -1,0 +1,32 @@
+package com.cos.person.web;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	//http://localhost:8080/user
+	//get
+	@GetMapping("/user")
+	public void findAll() {
+		
+	}
+	
+	//http://localhost:8080/user/1
+	//get
+	@GetMapping("/user/{id}")
+	public void findById(@PathVariable int id) {
+		
+	}
+	
+	//http://localhost:8080/user
+	//post
+	@PostMapping("/user")
+	//x-www-form-usrlencoded
+	public void save(String username, String password, String phone) {
+		
+	}
+}

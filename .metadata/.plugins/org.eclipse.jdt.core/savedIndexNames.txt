@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+D:\mylab\springwork\.metadata\.plugins\org.eclipse.jdt.core
+3435648363.index
+3041880142.index
+2957467868.index
+3090361865.index
+1506189541.index
+2480262077.index
+4228328552.index
